@@ -209,3 +209,6 @@
   209  cd ..
   210  ls -al
   211  ./push_history.sh 
+  212  ls -al
+  213  cd .
+  214  ./push_history.sh 
