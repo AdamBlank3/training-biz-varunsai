@@ -223,3 +223,7 @@
   223  cd ..
   224  vi push_history.sh 
   225  ./push_history.sh 
+  226  cd training-biz-varunsai/
+  227  git pull
+  228  cd ..
+  229  ./push_history.sh 
