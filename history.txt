@@ -243,3 +243,9 @@
   243  git pull
   244  cd ..
   245  ./push_history.sh 
+  246  ls
+  247  cd training-biz-varunsai/
+  248  ls
+  249  cd
+  250  cat push_history.sh 
+  251  ./push_history.sh 
