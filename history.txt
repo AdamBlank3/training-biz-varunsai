@@ -1,0 +1,225 @@
+    1  pwd
+    2  sudo adduser varun --disabled-password
+    3  sudo adduser varun
+    4  passwd -d varun
+    5  sudo passwd -d varun
+    6  sudo su varun
+    7  sudo -i
+    8  sudo userdel varun
+    9  sudo su root
+   10  sudo su -
+   11  exit
+   12  sudo su -
+   13  logout
+   14  sudo su root
+   15  exit
+   16  sudo su
+   17  exit
+   18  ls
+   19  ls -la
+   20  cd .ssh
+   21  ls
+   22  ls -la
+   23  cat authorized_keys
+   24  exit
+   25  ls
+   26  ls -la
+   27  cd .ssh
+   28  ls
+   29  cat authorized_keys
+   30  cat >> authorized_keys
+   31  ls
+   32  cat authorized_keys
+   33  exit
+   34  logout
+   35  sudo yum update
+   36  lscpu
+   37  free -g
+   38  free -m
+   39  java -version
+   40  sudo yum install java-17-openjdk
+   41  export HISTTIMEFORMAT="%F %T "
+   42  source ~/.bashrc
+   43  history > commandslist.txt
+   44  ls
+   45  cat commandslist.txt
+   46  java -version
+   47  sudo yum install wget
+   48  sudo yum install nano -y
+   49  wget https://download.oracle.com/otn-pub/otn_software/db-express/oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm
+   50  ls -l
+   51  ls -lh
+   52  history
+   53  ls
+   54  sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+   55  wget https://yum.oracle.com/repo/OracleLinux/OL8/appstream/x86_64/getPackage/oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm
+   56  sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+   57  exit
+   58  ls
+   59  sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+   60  sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+   61  ls
+   62  wget https://rpmfind.net/linux/almalinux/8.10/AppStream/x86_64/os/Packages/compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm
+   63  sudo yum localinstall compat-openssl10-1.0.2o-4.el8_6.x86_64.rpm 
+   64  sudo yum localinstall oracle-database-preinstall-21c-1.0-1.el8.x86_64.rpm 
+   65  sudo yum localinstall oracle-database-xe-21c-1.0-1.ol8.x86_64.rpm 
+   66  free -m
+   67  exit
+   68  sudo /etc/init.d/oracle-xe-21c configure
+   69  export CV_ASSUME_DISTID=OEL8.4
+   70  /etc/init.d/oracle-xe-21c configure
+   71  sudo /etc/init.d/oracle-xe-21c configure
+   72  sudo vi $ORACLE_HOME/cv/admin/cvu_config
+   73  cd/opt/oracle/product/21c/dbhomeXE/cv/admin
+   74  cd /opt/oracle/product/21c/dbhomeXE/cv/admin/
+   75  sudo vi cvu_config
+   76  cd ..
+   77  sudo /etc/init.d/oracle-xe-21c configure
+   78  ls
+   79  lsnrctl status
+   80  export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+   81  export ORACLE_SID=XE
+   82  ls
+   83  cat commandslist.txt
+   84  export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+   85   sqlplus
+   86  sudo service oracle-xe-21c start
+   87  sudo lsnrctl status
+   88  sqlplus sys as sysdba
+   89  source ~/.bash_profile
+   90  sqlplus
+   91  export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+   92  export ORACLE_SID=XE
+   93  sqlplus
+   94  sudo yum install tmux
+   95  export HISTTIMEFORMAT="%F %T "
+   96  source ~/.bashrc
+   97  history > commandslist.txt
+   98  cat commandslist.txt
+   99  history
+  100  cat .bash_profile
+  101  export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  102  cat .bash_profile
+  103  cd
+  104  export ORACLE_HOME=/opt/oracle/product/21c/dbhomeXE
+  105  cat .bash_profile
+  106  export ORACLE_SID=XE
+  107  export PATH=$PATH:/opt/oracle/product/21c/dbhomeXE/bin/
+  108  sqlplus
+  109  env
+  110  env | grep ORACLE
+  111  cd /opy
+  112  cd /opt
+  113  ls
+  114  cd ..
+  115  vi bash_profile
+  116  vi .bash_profile
+  117  ls
+  118  cat .bash_profile
+  119  cd ..
+  120  cat .bash_profile
+  121  cd ~
+  122  cat .bash_profile
+  123  vi .bash_profile
+  124  cat .bash_profile
+  125  source ~/.bash_profile
+  126  env
+  127  env | grep ORACLE
+  128  ssqlplus
+  129  sqlplus
+  130  exit
+  131  sqlplus
+  132  tnsping xe
+  133  tnsping XE
+  134  sqlplus
+  135  sqlplus classicmodels/classicmodels
+  136  cd /opt/oracle/product/21c/dbhomeXE/bin
+  137  imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+  138  ls
+  139  sudo bash
+  140  cd
+  141  /opt/oracle/product/21c/dbhomeXE/bin
+  142  cd /opt/oracle/product/21c/dbhomeXE/bin
+  143  ls
+  144  sudo bash
+  145  grep classicmodels.dmp
+  146  ls 
+  147  cd
+  148  ls
+  149  sudo bash
+  150  imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+  151  ls
+  152  cat import_sys.sql
+  153  sudo imp classicmodels/classicmodels FILE=/home/ec2-user/classicmodels.dmp log=/home/ec2-user/import.log FULL=Y
+  154  exit
+  155  ls
+  156  history
+  157  sudo adduser varun --disabled-password
+  158  java -version
+  159  ls
+  160  grep oracle
+  161  grep oracle;
+  162  ls | grep oracle
+  163  ls
+  164  sudo yum install git
+  165  git clone git@github.com:AdamBlank3/training-biz-varunsai.git
+  166  ssh-keygen -t rsa -b 4096 -C "avengelionstark@gmail.com"
+  167  cd .ssh
+  168  ls
+  169  cat id_rsa.pub
+  170  cd
+  171  git clone git@github.com:AdamBlank3/training-biz-varunsai.git
+  172  ls
+  173  cd training-biz-varunsai/
+  174  ls
+  175  pwd
+  176  touch push_history.sh
+  177  ls
+  178  vi push_history.sh
+  179  chmod +x /home/ec2-user/training-biz-varunsai
+  180  chmod +x /home/ec2-user/training-biz-varunsai/push_history.sh
+  181  ls -l
+  182  crontab -e
+  183  crontab -l
+  184  ssh -T git@github.com
+  185  /home/ec2-user/training-biz-varunsai/push_history.sh
+  186  sudo grep CRON /var/log/cron
+  187  crontab -e
+  188  sudo grep CRON /var/log/cron
+  189  /home/ec2-user/training-biz-varunsai/push_history.sh
+  190  history
+  191  vi push_history.sh
+  192  /home/ec2-user/training-biz-varunsai/push_history.sh
+  193  vi push_history.sh
+  194  history
+  195  vi push_history.sh 
+  196  ./push_history.sh 
+  197  ls -al
+  198  cat history.txt
+  199  history>history.txt
+  200  cat history.txt
+  201  git add .
+  202  git push -u origin main
+  203  chmod 777 history.txt
+  204  git push -u origin main
+  205  vi push_history.sh \
+  206  vi push_history.sh
+  207  mv push_history.sh /home/ec2-user
+  208  ls -al
+  209  cd ..
+  210  ls -al
+  211  ./push_history.sh 
+  212  ls -al
+  213  cd .
+  214  ./push_history.sh 
+  215  cat push_history.sh 
+  216  mv push_history.sh /home/ec2-user/training-biz-varunsai
+  217  ls -al
+  218  cd training-biz-varunsai/
+  219  ls -al
+  220  ./push_history.sh 
+  221  mv push_history.sh /home/ec2-user
+  222  ls -al
+  223  cd ..
+  224  vi push_history.sh 
+  225  ./push_history.sh 
