@@ -227,3 +227,7 @@
   227  git pull
   228  cd ..
   229  ./push_history.sh 
+  230  cd training-biz-varunsai/
+  231  git pull origin main
+  232  cd ..
+  233  ./push_history.sh 
