@@ -231,3 +231,15 @@
   231  git pull origin main
   232  cd ..
   233  ./push_history.sh 
+  234  git pull -u origin main
+  235  cd training-biz-varunsai/
+  236  gicd ..
+  237  cd ..
+  238  cd training-biz-varunsai
+  239  git pull -u origin main 
+  240  git push -u origin main
+  241  git pull origin main
+  242  git config pull.rebase false
+  243  git pull
+  244  cd ..
+  245  ./push_history.sh 
