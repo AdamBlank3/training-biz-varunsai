@@ -474,3 +474,7 @@ sed 's/am/as/g' experiment.txt
 free -g
 du -h
 df -ah
+top
+exit
+ls
+uname -a
