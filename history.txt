@@ -381,3 +381,8 @@ ls
 cd
 ./push_history.sh
 crontab -e
+cd
+ls
+cd training-biz-varunsai/
+ls
+cd
