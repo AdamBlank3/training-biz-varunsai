@@ -387,3 +387,77 @@ cd training-biz-varunsai/
 ls
 cd
 crontab -e
+history
+ls
+cd training-biz-varunsai/
+ls
+cat history.txt 
+cd
+ls
+vi push_history.sh 
+./push_history.sh 
+mv push_history.sh /home/ec2-user/training-biz-varunsai/
+ls
+cd training-biz-varunsai/
+ls
+./push_history.sh 
+vi push_history.sh 
+ls
+./push_history.sh 
+mv push_history.sh /home/ec2-user/
+ls
+./push_history.sh 
+cd
+./push_history.sh 
+vi push_history.sh 
+./push_history.sh 
+git commit
+cd training-biz-varunsai/
+git commit
+./push_history.sh 
+ccd
+cd
+./push_history.sh 
+git pull
+cd training-biz-varunsai/
+git pull
+ls
+cd
+./push_history.sh 
+vi push_history.sh 
+./push_history.sh 
+vi push_history.sh 
+./push_history.sh 
+vi push_history.sh 
+./push_history.sh 
+vi push_history.sh 
+pwd
+vi push_history.sh 
+cd training-biz-varunsai/
+ls
+pwd
+vi push_history.sh 
+cd ..
+vi push_history.sh 
+./push_history.sh 
+vipw 
+vi push_history.sh 
+./push_history.sh 
+sudo vi ~/.bashrc
+./push_history.sh 
+vi push_history.sh 
+./push_history.sh 
+crontab -e
+crontab -l
+ls
+ls-l
+ls -al
+hisory
+history
+./push_history.sh 
+~/.bash_history
+sudo ~/.bash_history
+sudo bash
+ls
+touch experiment.txt
+vi experiment.txt
