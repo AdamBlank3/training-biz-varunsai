@@ -380,3 +380,4 @@ cd training-biz-varunsai/
 ls
 cd
 ./push_history.sh
+crontab -e
