@@ -478,3 +478,5 @@ top
 exit
 ls
 uname -a
+hostname
+hostname -I
