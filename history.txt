@@ -374,3 +374,8 @@ vi push_history.sh
 vi push_history.sh 
 ./push_history.sh
 vi ~/.bash_history 
+vi ~/.bashrc
+history
+cd training-biz-varunsai/
+ls
+cd
