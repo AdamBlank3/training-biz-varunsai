@@ -466,3 +466,9 @@ cat commandslist.txt
 vi experiment.txt
 cd training-biz-varunsai/
 ls
+cd
+ls
+sed experiment.txt 
+sed 's/am/as/' experiment.txt 
+sed 's/am/as/g' experiment.txt 
+free -g
