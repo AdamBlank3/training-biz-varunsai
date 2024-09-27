@@ -472,3 +472,4 @@ sed experiment.txt
 sed 's/am/as/' experiment.txt 
 sed 's/am/as/g' experiment.txt 
 free -g
+du -h
