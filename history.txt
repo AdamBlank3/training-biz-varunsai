@@ -372,3 +372,4 @@ cd
 vi push_history.sh 
 ./push_history.sh 
 vi push_history.sh 
+./push_history.sh
