@@ -1,4 +1,4 @@
-pwd
+51.20.251.153pwd
 sudo adduser varun --disabled-password
 sudo adduser varun
 passwd -d varun
@@ -373,3 +373,4 @@ vi push_history.sh
 ./push_history.sh 
 vi push_history.sh 
 ./push_history.sh
+vi ~/.bash_history 
