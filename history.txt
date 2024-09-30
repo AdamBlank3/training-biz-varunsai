@@ -492,3 +492,4 @@ tail commandslist.txt
 head commandslist.txt 
 wc commandslist.txt 
 crontab -l
+grep "varun" commandslist.txt 
