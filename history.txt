@@ -481,3 +481,9 @@ uname -a
 hostname
 hostname -I
 ls
+cat classicmodels.dmp
+ls
+less classicmodels.dmp
+ls
+cat commandslist.txt
+less commandslist.txt
