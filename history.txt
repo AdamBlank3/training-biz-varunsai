@@ -493,3 +493,7 @@ head commandslist.txt
 wc commandslist.txt 
 crontab -l
 grep "varun" commandslist.txt 
+find /home/ec2-user "commandslist.txt" 
+find /home/ec2-user -name "commandslist.txt" 
+find /home/ec2-user -name "history.txt" 
+.profile
