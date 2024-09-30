@@ -498,3 +498,5 @@ find /home/ec2-user -name "commandslist.txt"
 find /home/ec2-user -name "history.txt" 
 .profile
 ping google.com
+nslookup google.com
+ifconfig
