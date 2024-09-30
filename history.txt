@@ -487,3 +487,7 @@ less classicmodels.dmp
 ls
 cat commandslist.txt
 less commandslist.txt
+more commandslist.txt
+tail commandslist.txt 
+head commandslist.txt 
+wc commandslist.txt 
