@@ -500,3 +500,5 @@ find /home/ec2-user -name "history.txt"
 ping google.com
 nslookup google.com
 ifconfig
+ls
+exit
