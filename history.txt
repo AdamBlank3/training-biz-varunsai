@@ -502,3 +502,4 @@ nslookup google.com
 ifconfig
 ls
 exit
+ls
