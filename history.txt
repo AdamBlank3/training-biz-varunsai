@@ -580,3 +580,4 @@ sudo chmod +x sendmail.sh
 ./sendmail.sh
 vi sendmail.sh
 ./sendmail.sh
+sudo ./sendmail.sh
