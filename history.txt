@@ -503,3 +503,6 @@ ifconfig
 ls
 exit
 ls
+sudo yum install sendmail -y
+sudo systemctl enable sendmail
+sudo systemctl start sendmail
