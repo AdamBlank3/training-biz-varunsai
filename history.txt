@@ -558,3 +558,7 @@ sudo systemctl status sendmail
 {
 sudo yum install cyrus-sasl-plain
 echo "test" | sendmail 'varunsai94400@gmail.com'
+cd
+echo "test" | sendmail 'varunsai94400@gmail.com'
+sudo systemctl restart sendmail
+echo "test" | sendmail 'varunsai94400@gmail.com'
