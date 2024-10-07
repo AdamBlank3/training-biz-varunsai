@@ -506,3 +506,5 @@ ls
 sudo yum install sendmail -y
 sudo systemctl enable sendmail
 sudo systemctl start sendmail
+sudo vi /etc/mail/sendmail.mc
+sudo yum install sendmail-cf -y
