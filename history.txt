@@ -545,3 +545,14 @@ ls -ld /etc/mail
 sudo systemctl start sendmail
 sudo systemctl status sendmail
 ls -ld /etc/mail
+cd /etc
+cd mail
+ls -ld /etc/mail
+sudo chmod 755 /etc/mail
+sudo chown root:root /etc/mail
+ls -ld /etc/mail
+sudo systemctl start sendmail
+sudo vi /etc/mail/sendmail.mc
+sudo systemctl start sendmail
+sudo systemctl status sendmail
+{
