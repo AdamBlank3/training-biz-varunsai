@@ -562,3 +562,13 @@ cd
 echo "test" | sendmail 'varunsai94400@gmail.com'
 sudo systemctl restart sendmail
 echo "test" | sendmail 'varunsai94400@gmail.com'
+echo "test" | sendmail "varunsai94400@gmail.com"
+ls
+sudo vi etc/mail/authinfo
+cd /etc/mail
+ls
+sudo vi authinfo
+sudo cat authinfo
+cd
+sudo systemctl restart sendmail
+echo "test" | sendmail "varunsai94400@gmail.com"
