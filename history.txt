@@ -508,3 +508,13 @@ sudo systemctl enable sendmail
 sudo systemctl start sendmail
 sudo vi /etc/mail/sendmail.mc
 sudo yum install sendmail-cf -y
+sudo vi etc/mail/authinfo
+chmod 700 etc/mail/authinfo
+sudo chmod 700 etc/mail/authinfo
+sudo touch etc/mail/authinfo
+cd etc
+cd /etc
+cd /mail
+ls
+ls -la
+cd /mail
