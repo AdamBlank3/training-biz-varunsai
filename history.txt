@@ -532,3 +532,16 @@ sudo cat authinfo
 sudo systemctl restart sendmail
 cd
 sudo systemctl restart sendmail
+sudo chmod 755 authinfo
+cd /mail
+cd /etc
+cd mail
+sudo chmod 755 authinfo
+cd
+sudo systemctl restart sendmail
+sudo chmod 755 /etc/mail
+sudo chown root:root /etc/mail
+ls -ld /etc/mail
+sudo systemctl start sendmail
+sudo systemctl status sendmail
+ls -ld /etc/mail
