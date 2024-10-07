@@ -518,3 +518,17 @@ cd /mail
 ls
 ls -la
 cd /mail
+cd mail
+ls
+touch authinfo
+sudo touch authinfo
+vi authinfo 
+cat authinfo
+sudo chmod 700 authinfo
+vi authinfo 
+sudo vi authinfo 
+cat authinfo
+sudo cat authinfo
+sudo systemctl restart sendmail
+cd
+sudo systemctl restart sendmail
