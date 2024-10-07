@@ -572,3 +572,6 @@ sudo cat authinfo
 cd
 sudo systemctl restart sendmail
 echo "test" | sendmail "varunsai94400@gmail.com"
+echo ls | sendmail 'varunsai94400@gmail.com'
+touch sendmail.sh
+vi sendmail.sh
