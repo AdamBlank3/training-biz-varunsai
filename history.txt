@@ -595,3 +595,6 @@ vi sendmail.sh
 sudo ./sendmail.sh
 exit
 ls
+vi sendmail.sh
+ls
+sudo ./sendmail.sh
