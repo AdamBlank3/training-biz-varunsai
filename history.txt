@@ -598,3 +598,7 @@ ls
 vi sendmail.sh
 ls
 sudo ./sendmail.sh
+crontab -e
+./sendmail.sh
+crontab -e
+pwd
