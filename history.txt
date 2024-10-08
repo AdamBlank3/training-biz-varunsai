@@ -605,3 +605,10 @@ pwd
 crontab -e
 ./sendmail.sh
 crontab -e
+crontab -h
+crontab -l
+ls
+crontab -e
+./sendmail.sh
+crontab -l
+exit
