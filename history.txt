@@ -613,3 +613,5 @@ crontab -e
 crontab -l
 exit
 ls
+vi sendmail.sh
+crontab -e
