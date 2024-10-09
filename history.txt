@@ -612,3 +612,4 @@ crontab -e
 ./sendmail.sh
 crontab -l
 exit
+ls
